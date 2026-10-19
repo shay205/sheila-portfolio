@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" fill="none">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff9f7"/>
+      <stop offset="1" stop-color="#f8e9ee"/>
+    </linearGradient>
+    <linearGradient id="product" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#e9b5bd"/>
+      <stop offset="1" stop-color="#b86d86"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="20" fill="url(#paper)"/>
+  <rect x="20" y="20" width="920" height="500" rx="16" fill="#fffdfb" stroke="#f1dfe3"/>
+  <rect x="20" y="20" width="920" height="43" rx="16" fill="#eed3d7"/>
+  <path d="M20 47h920v16H20z" fill="#eed3d7"/>
+  <text x="480" y="47" fill="#573a43" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" letter-spacing="1">A LITTLE GLOW, A LOT OF YOU  -  DISCOVER YOUR NEW FAVORITES</text>
+  <text x="54" y="101" fill="#4a3039" font-family="Georgia,serif" font-size="22" font-weight="700">BEAUTY &amp; CARE</text>
+  <g fill="#66515a" font-family="Arial,sans-serif" font-size="12">
+    <text x="375" y="99">Skincare</text><text x="457" y="99">Makeup</text><text x="534" y="99">Bodycare</text><text x="626" y="99">Fragrance</text>
+  </g>
+  <circle cx="867" cy="91" r="17" fill="#f8edf0"/><path d="M861 88h12l-1 11h-10l-1-11Zm2-3a4 4 0 0 1 8 0" stroke="#76535f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M42 120h876" stroke="#eee3e4"/>
+  <rect x="43" y="139" width="874" height="184" rx="13" fill="#f5e8e8"/>
+  <circle cx="773" cy="232" r="95" fill="#edcfd2"/>
+  <circle cx="773" cy="232" r="70" fill="#e4b8bf"/>
+  <path d="M744 156h57v18h-57z" rx="5" fill="#d8a0a7"/>
+  <rect x="751" y="174" width="43" height="108" rx="8" fill="#fff5ef" stroke="#dbaeb2" stroke-width="2"/>
+  <rect x="762" y="154" width="21" height="20" rx="3" fill="#9e6974"/>
+  <rect x="762" y="204" width="21" height="34" rx="4" fill="url(#product)"/>
+  <text x="772" y="257" fill="#68444c" font-family="Georgia,serif" font-size="7" text-anchor="middle">SERUM</text>
+  <text x="772" y="267" fill="#8d6770" font-family="Arial,sans-serif" font-size="5" text-anchor="middle">daily serum</text>
+  <text x="77" y="194" fill="#ad7782" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2">YOUR EVERYDAY RITUAL</text>
+  <text x="77" y="231" fill="#513942" font-family="Georgia,serif" font-size="32">Find your natural</text>
+  <text x="77" y="267" fill="#513942" font-family="Georgia,serif" font-size="32">everyday glow.</text>
+  <text x="77" y="291" fill="#806d71" font-family="Arial,sans-serif" font-size="12">Thoughtful essentials for skin, body and beyond.</text>
+  <rect x="77" y="300" width="116" height="1" fill="#bd8991"/>
+  <text x="77" y="317" fill="#7d4f5a" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">SHOP THE COLLECTION</text>
+  <text x="44" y="356" fill="#503942" font-family="Georgia,serif" font-size="20">Shop by category</text>
+  <text x="839" y="355" fill="#98767d" font-family="Arial,sans-serif" font-size="11">VIEW ALL</text>
+  <g>
+    <rect x="44" y="372" width="210" height="126" rx="10" fill="#f8eeee"/>
+    <rect x="269" y="372" width="210" height="126" rx="10" fill="#f3e8ed"/>
+    <rect x="494" y="372" width="210" height="126" rx="10" fill="#f9efeb"/>
+    <rect x="719" y="372" width="198" height="126" rx="10" fill="#f1e8ec"/>
+    <circle cx="149" cy="425" r="36" fill="#efd9dc"/>
+    <rect x="135" y="399" width="28" height="48" rx="7" fill="#dcaeb3"/><rect x="142" y="392" width="14" height="10" rx="3" fill="#9e6974"/>
+    <rect x="139" y="415" width="20" height="13" rx="3" fill="#fff4ef"/>
+    <text x="149" y="478" fill="#65464f" font-family="Arial,sans-serif" font-size="11" text-anchor="middle">Skincare</text>
+    <circle cx="374" cy="425" r="36" fill="#e8d9e1"/>
+    <rect x="365" y="397" width="18" height="48" rx="7" fill="#b56b83"/><rect x="369" y="390" width="10" height="10" rx="2" fill="#885061"/>
+    <text x="374" y="478" fill="#65464f" font-family="Arial,sans-serif" font-size="11" text-anchor="middle">Makeup</text>
+    <circle cx="599" cy="425" r="36" fill="#f0dfd8"/>
+    <path d="M580 420h38l-4 29h-30l-4-29Z" fill="#d8ada0"/><rect x="588" y="405" width="22" height="15" rx="4" fill="#b18478"/>
+    <text x="599" y="478" fill="#65464f" font-family="Arial,sans-serif" font-size="11" text-anchor="middle">Bodycare</text>
+    <circle cx="818" cy="425" r="36" fill="#e7d8df"/>
+    <rect x="807" y="401" width="22" height="46" rx="6" fill="#d5b0c0"/><rect x="812" y="392" width="12" height="11" rx="3" fill="#957080"/>
+    <text x="818" y="478" fill="#65464f" font-family="Arial,sans-serif" font-size="11" text-anchor="middle">Fragrance</text>
+  </g>
+</svg>

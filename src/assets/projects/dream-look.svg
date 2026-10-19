@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff1f7"/>
+      <stop offset="1" stop-color="#eee8ff"/>
+    </linearGradient>
+    <linearGradient id="dress" x1="407" y1="222" x2="554" y2="429" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="20" fill="url(#bg)"/>
+  <rect x="24" y="24" width="912" height="492" rx="16" fill="#fffafd" stroke="#eadff2"/>
+  <rect x="24" y="24" width="912" height="57" rx="16" fill="#fff"/>
+  <path d="M24 65h912v16H24z" fill="#fff"/>
+  <circle cx="62" cy="52" r="19" fill="#fce1ed"/>
+  <path d="M62 61s-12-7-12-15a6 6 0 0 1 12-2 6 6 0 0 1 12 2c0 8-12 15-12 15Z" fill="#d779a3"/>
+  <text x="91" y="58" fill="#4f3852" font-family="Georgia,serif" font-size="21" font-weight="700">Dream Look</text>
+  <g fill="#86758e" font-family="Arial,sans-serif" font-size="11">
+    <text x="689" y="56">STYLE STUDIO</text><text x="786" y="56">MY LOOKS</text>
+  </g>
+  <circle cx="897" cy="52" r="17" fill="#f5ecfa"/><path d="M897 43v18m-9-9h18" stroke="#9b77ba" stroke-width="2" stroke-linecap="round"/>
+  <rect x="44" y="99" width="872" height="393" rx="13" fill="#fff4f8"/>
+  <text x="69" y="135" fill="#553c5a" font-family="Georgia,serif" font-size="23">Create your dream look</text>
+  <text x="69" y="156" fill="#9a839e" font-family="Arial,sans-serif" font-size="11">Mix, match and make it yours.</text>
+  <rect x="69" y="176" width="509" height="289" rx="12" fill="#f7eaf3"/>
+  <circle cx="322" cy="318" r="111" fill="#f0dbea"/>
+  <circle cx="322" cy="203" r="48" fill="#b7a1c1"/>
+  <path d="M278 205c-7-56 87-76 98-11-13-17-22-28-47-27-16 17-32 25-51 27Z" fill="#4f405d"/>
+  <ellipse cx="321" cy="215" rx="32" ry="39" fill="#f2c6a7"/>
+  <path d="M302 211q8 6 15 0m10 0q8 6 15 0" stroke="#70515a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M314 232q8 7 16 0" stroke="#c07888" stroke-width="2" stroke-linecap="round"/>
+  <path d="M295 249q27 20 54 0l22 35-16 31h-65l-16-31 21-35Z" fill="#f3c8d6"/>
+  <path d="m298 261-39 27-20 74 20 7 31-54 15-28m47-26 39 27 20 74-20 7-31-54-15-28" fill="#f2c6a7" stroke="#dda98d" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M294 309h57l40 116H253l41-116Z" fill="url(#dress)"/>
+  <path d="M294 309q28 23 57 0" stroke="#eee6ff" stroke-width="3" opacity=".8"/>
+  <path d="M293 339h57m-67 30h78m-89 30h99" stroke="#dfd3ff" stroke-width="2" opacity=".7"/>
+  <path d="M288 426h24l-6 26h-26l8-26Zm48 0h24l8 26h-26l-6-26Z" fill="#73558a"/>
+  <path d="M277 447h34m43 0h34" stroke="#4d3a5e" stroke-width="4" stroke-linecap="round"/>
+  <text x="322" y="453" fill="#987a9b" font-family="Arial,sans-serif" font-size="9" text-anchor="middle">YOUR LOOK</text>
+  <rect x="597" y="176" width="294" height="289" rx="12" fill="#fff" stroke="#f1e4ef"/>
+  <text x="619" y="203" fill="#5a4260" font-family="Arial,sans-serif" font-size="13" font-weight="700">Choose your style</text>
+  <g font-family="Arial,sans-serif" font-size="10" font-weight="600">
+    <rect x="619" y="219" width="77" height="28" rx="14" fill="#eee3fa"/><text x="657" y="237" fill="#765292" text-anchor="middle">Hair</text>
+    <rect x="705" y="219" width="77" height="28" rx="14" fill="#f7eaf0"/><text x="743" y="237" fill="#9c7185" text-anchor="middle">Outfits</text>
+    <rect x="791" y="219" width="77" height="28" rx="14" fill="#f7eaf0"/><text x="829" y="237" fill="#9c7185" text-anchor="middle">Shoes</text>
+  </g>
+  <g>
+    <rect x="619" y="263" width="118" height="80" rx="9" fill="#f7eef8" stroke="#d9c6e9" stroke-width="2"/>
+    <rect x="750" y="263" width="118" height="80" rx="9" fill="#fbf1f4"/>
+    <rect x="619" y="354" width="118" height="80" rx="9" fill="#fbf1f4"/>
+    <rect x="750" y="354" width="118" height="80" rx="9" fill="#fbf1f4"/>
+    <path d="M651 298q3-26 24-21 15 4 12 25l-9 16h-22l-9-20Z" fill="#705269"/>
+    <path d="M782 299q5-27 25-20 16 5 11 24l-9 15h-22l-9-19Z" fill="#b47b91"/>
+    <path d="m659 374 16-8 15 8 10 46h-50l9-46Z" fill="#c4b5fd"/>
+    <path d="m790 374 16-8 15 8 10 46h-50l9-46Z" fill="#e9a9c1"/>
+    <circle cx="722" cy="278" r="8" fill="#c4b5fd"/><path d="m718 278 3 3 5-6" stroke="#fff" stroke-width="1.5"/>
+  </g>
+  <rect x="619" y="443" width="249" height="1" fill="#f0e5f0"/>
+  <text x="619" y="458" fill="#9c849f" font-family="Arial,sans-serif" font-size="9">Select a style to build your outfit</text>
+</svg>

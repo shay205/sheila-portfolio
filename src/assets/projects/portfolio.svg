@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#21183b"/>
+      <stop offset="1" stop-color="#0c1021"/>
+    </linearGradient>
+    <linearGradient id="title" x1="248" y1="214" x2="635" y2="282" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset=".65" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="20" fill="url(#bg)"/>
+  <rect x="24" y="24" width="912" height="492" rx="16" fill="#0b0912" stroke="#38304e"/>
+  <path d="M24 82h912" stroke="#302740"/>
+  <text x="61" y="61" fill="#f1edfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">SHEILA</text>
+  <g fill="#aaa1bf" font-family="Arial,sans-serif" font-size="10">
+    <text x="650" y="60">ABOUT</text><text x="711" y="60">SKILLS</text><text x="767" y="60">PROJECTS</text><text x="842" y="60">CONTACT</text>
+  </g>
+  <circle cx="897" cy="55" r="3" fill="#c4b5fd"/>
+  <circle cx="482" cy="236" r="166" fill="#8b5cf6" opacity=".12"/>
+  <text x="126" y="165" fill="#c4b5fd" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2">WEB DEVELOPER  /  CREATIVE PROBLEM SOLVER</text>
+  <text x="126" y="222" fill="url(#title)" font-family="Arial,sans-serif" font-size="48" font-weight="700">Ideas into</text>
+  <text x="126" y="277" fill="url(#title)" font-family="Arial,sans-serif" font-size="48" font-weight="700">useful experiences.</text>
+  <text x="126" y="311" fill="#aaa1bf" font-family="Arial,sans-serif" font-size="13">Building thoughtful web projects and exploring what technology</text>
+  <text x="126" y="332" fill="#aaa1bf" font-family="Arial,sans-serif" font-size="13">can do for people.</text>
+  <rect x="126" y="358" width="131" height="42" rx="10" fill="#6d43c1"/>
+  <text x="148" y="384" fill="#fff" font-family="Arial,sans-serif" font-size="11" font-weight="600">Explore projects</text>
+  <rect x="271" y="358" width="112" height="42" rx="10" fill="#171426" stroke="#41375c"/>
+  <text x="297" y="384" fill="#e6def4" font-family="Arial,sans-serif" font-size="11">Get in touch</text>
+  <rect x="672" y="147" width="196" height="229" rx="14" fill="#171426" stroke="#41375c"/>
+  <rect x="689" y="165" width="162" height="92" rx="9" fill="#251c39"/>
+  <circle cx="770" cy="211" r="30" fill="#3b2b56"/>
+  <path d="M756 210h28m-22-9 8-8 8 8m-16 19 8 8 8-8" stroke="#c4b5fd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="689" y="282" fill="#f1edfa" font-family="Arial,sans-serif" font-size="12" font-weight="600">Selected work</text>
+  <rect x="689" y="297" width="72" height="57" rx="7" fill="#272038"/>
+  <rect x="768" y="297" width="83" height="57" rx="7" fill="#272038"/>
+  <rect x="697" y="305" width="56" height="36" rx="4" fill="#352a4e"/>
+  <path d="M705 329h40m-34-7h18m-18-7h30" stroke="#c4b5fd" stroke-width="2" stroke-linecap="round"/>
+  <rect x="777" y="305" width="65" height="36" rx="4" fill="#412d40"/>
+  <circle cx="809" cy="323" r="11" fill="#b36d82"/>
+  <path d="M803 323h12m-6-6v12" stroke="#f9e9ef" stroke-width="2"/>
+  <text x="85" y="461" fill="#7f7593" font-family="Arial,sans-serif" font-size="10">PORTFOLIO  /  SELECTED PROJECTS  /  2026</text>
+  <path d="M821 456h48" stroke="#57436f" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="869" cy="456" r="4" fill="#c4b5fd"/>
+</svg>

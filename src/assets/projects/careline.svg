@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="48" y1="0" x2="920" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#21183b"/>
+      <stop offset="1" stop-color="#0c1021"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="20" fill="url(#bg)"/>
+  <rect x="24" y="24" width="912" height="492" rx="16" fill="#100e1b" stroke="#38304e"/>
+  <rect x="24" y="24" width="188" height="492" rx="16" fill="#171426"/>
+  <path d="M196 24h16v492h-16z" fill="#171426"/>
+  <rect x="48" y="48" width="36" height="36" rx="11" fill="url(#accent)"/>
+  <path d="M66 55v22m-11-11h22" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <text x="96" y="72" fill="#f1edfa" font-family="Arial,sans-serif" font-size="19" font-weight="700">CARELINE</text>
+  <text x="48" y="124" fill="#837a9e" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2">WORKSPACE</text>
+  <rect x="40" y="140" width="156" height="40" rx="10" fill="#34274e"/>
+  <rect x="54" y="153" width="14" height="14" rx="4" fill="#c4b5fd"/>
+  <text x="79" y="166" fill="#fff" font-family="Arial,sans-serif" font-size="14" font-weight="600">Dashboard</text>
+  <g fill="#aaa1bf" font-family="Arial,sans-serif" font-size="14">
+    <text x="79" y="218">Patients</text><text x="79" y="258">Appointments</text>
+    <text x="79" y="298">Doctors</text><text x="79" y="338">Reports</text>
+  </g>
+  <g stroke="#89819b" stroke-width="2">
+    <circle cx="61" cy="213" r="8"/><path d="M56 213h10m-5-5v10"/>
+    <rect x="54" y="245" width="14" height="14" rx="3"/><path d="M57 242v6m8-6v6"/>
+    <circle cx="61" cy="293" r="7"/><path d="M50 308c1-7 5-10 11-10s10 3 11 10"/>
+    <path d="M54 329h14v12H54zM57 325v8m8-8v8"/>
+  </g>
+  <text x="242" y="67" fill="#f1edfa" font-family="Arial,sans-serif" font-size="20" font-weight="700">Hospital dashboard</text>
+  <text x="242" y="91" fill="#a79fc0" font-family="Arial,sans-serif" font-size="12">Overview of today's care activity</text>
+  <rect x="818" y="49" width="88" height="34" rx="10" fill="#221a35" stroke="#41375c"/>
+  <circle cx="838" cy="66" r="9" fill="#8b5cf6"/><text x="854" y="70" fill="#e8e1f5" font-family="Arial,sans-serif" font-size="11">Admin</text>
+  <g>
+    <rect x="242" y="116" width="202" height="94" rx="12" fill="#191627" stroke="#342b48"/>
+    <rect x="462" y="116" width="202" height="94" rx="12" fill="#191627" stroke="#342b48"/>
+    <rect x="682" y="116" width="224" height="94" rx="12" fill="#191627" stroke="#342b48"/>
+    <text x="260" y="146" fill="#aaa1bf" font-family="Arial,sans-serif" font-size="12">Registered patients</text>
+    <text x="260" y="186" fill="#f1edfa" font-family="Arial,sans-serif" font-size="30" font-weight="700">--</text>
+    <text x="480" y="146" fill="#aaa1bf" font-family="Arial,sans-serif" font-size="12">Today's appointments</text>
+    <text x="480" y="186" fill="#f1edfa" font-family="Arial,sans-serif" font-size="30" font-weight="700">--</text>
+    <text x="700" y="146" fill="#aaa1bf" font-family="Arial,sans-serif" font-size="12">Available doctors</text>
+    <text x="700" y="186" fill="#f1edfa" font-family="Arial,sans-serif" font-size="30" font-weight="700">--</text>
+    <circle cx="420" cy="143" r="9" fill="#34274e"/><circle cx="640" cy="143" r="9" fill="#34274e"/><circle cx="882" cy="143" r="9" fill="#34274e"/>
+  </g>
+  <rect x="242" y="231" width="664" height="252" rx="12" fill="#191627" stroke="#342b48"/>
+  <text x="262" y="263" fill="#f1edfa" font-family="Arial,sans-serif" font-size="15" font-weight="600">Recent appointments</text>
+  <text x="814" y="263" fill="#c4b5fd" font-family="Arial,sans-serif" font-size="12">View all</text>
+  <path d="M262 282h624" stroke="#342b48"/>
+  <g fill="#837a9e" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">
+    <text x="264" y="305">PATIENT</text><text x="480" y="305">DOCTOR</text><text x="644" y="305">TIME</text><text x="770" y="305">STATUS</text>
+  </g>
+  <g stroke="#30283f">
+    <path d="M262 317h624M262 367h624M262 417h624M262 467h624"/>
+  </g>
+  <g fill="#ece7f5" font-family="Arial,sans-serif" font-size="12">
+    <text x="284" y="345">Patient record 01</text><text x="480" y="345">Care team</text><text x="644" y="345">Upcoming</text>
+    <text x="284" y="395">Patient record 02</text><text x="480" y="395">Care team</text><text x="644" y="395">Upcoming</text>
+    <text x="284" y="445">Patient record 03</text><text x="480" y="445">Care team</text><text x="644" y="445">Upcoming</text>
+  </g>
+  <rect x="766" y="329" width="78" height="24" rx="12" fill="#213c34"/><text x="780" y="345" fill="#8ce0b4" font-family="Arial,sans-serif" font-size="10">Confirmed</text>
+  <rect x="766" y="379" width="78" height="24" rx="12" fill="#3b304a"/><text x="781" y="395" fill="#d4c0ff" font-family="Arial,sans-serif" font-size="10">Checked in</text>
+  <rect x="766" y="429" width="78" height="24" rx="12" fill="#213c34"/><text x="780" y="445" fill="#8ce0b4" font-family="Arial,sans-serif" font-size="10">Confirmed</text>
+</svg>
