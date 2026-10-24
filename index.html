@@ -1,13 +1,313 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sheila-portfolio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheila Chepkorir | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+</head>
+
+<body>
+
+    <div
+        id="welcome-overlay"
+        class="welcome-overlay"
+        role="status"
+        aria-labelledby="welcome-title"
+    >
+        <div class="welcome-tech-elements" aria-hidden="true">
+            <span class="tech-element tech-code">&lt;/&gt;</span>
+            <span class="tech-element tech-braces">{ }</span>
+            <span class="tech-element tech-binary">01 10</span>
+            <span class="tech-element tech-angle">&lt;&gt;</span>
+            <span class="tech-element tech-sql">SQL</span>
+            <span class="tech-element tech-python">Python</span>
+            <span class="tech-element tech-django">Django</span>
+            <span class="tech-element tech-cyber">CYBER</span>
+            <span class="tech-particle particle-one"></span>
+            <span class="tech-particle particle-two"></span>
+            <span class="tech-particle particle-three"></span>
+            <span class="tech-particle particle-four"></span>
+            <span class="tech-particle particle-five"></span>
+        </div>
+        <div class="welcome-content">
+            <p id="welcome-title" class="welcome-greeting">&#10024; Welcome to My Creative Space &#10024;</p>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <nav class="site-navigation" aria-label="Primary navigation">
+
+            <a class="site-logo" href="#home" aria-label="Sheila Chepkorir home">
+                Sheila Chepkorir
+            </a>
+
+            <ul class="navigation-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section" aria-labelledby="hero-title">
+
+            <p><span id="hero-role" aria-live="polite">Computer Science Student</span></p>
+
+            <h1 id="hero-title">
+                Hi, I am Sheila.
+            </h1>
+
+            <img
+                class="hero-profile-image"
+                src="image/image.jpg.jpeg"
+                alt="Sheila Chepkorir"
+            >
+
+            <p>
+                I am passionate about creating useful digital experiences through
+                web development and building secure, data-driven solutions with
+                Python, Django, databases, and cybersecurity.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects">View My Projects</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about" class="about-section" aria-labelledby="about-title">
+
+            <h2 id="about-title">About Me</h2>
+
+            <p>
+                I am Sheila Chepkorir, a Computer Science student at Karatina
+                University with a growing passion for creating practical and
+                meaningful software.
+            </p>
+
+            <p>
+                I enjoy learning how technology can solve real-world problems,
+                from building web applications to designing secure and
+                reliable systems.
+            </p>
+
+            <h3>Areas I Enjoy Working On</h3>
+
+            <ul>
+                <li>Software and web development</li>
+                <li>Python and Django applications</li>
+                <li>Databases and data-driven systems</li>
+                <li>Cybersecurity and secure development</li>
+            </ul>
+
+        </section>
+
+
+    <section id="skills" class="skills-section" aria-labelledby="skills-title">
+
+        <h2 id="skills-title">My Skills</h2>
+
+        <p>
+            Here are some of the technologies and areas I am currently
+            learning and working with.
+        </p>
+
+        <div class="skills-grid">
+
+            <article class="skill-card">
+                <h3>Web Development</h3>
+                <p>HTML, CSS and JavaScript</p>
+            </article>
+
+            <article class="skill-card">
+                <h3>Programming</h3>
+                <p>Python and C++</p>
+            </article>
+
+            <article class="skill-card">
+                <h3>Backend Development</h3>
+                <p>Django and database development</p>
+            </article>
+
+            <article class="skill-card">
+                <h3>Databases</h3>
+                <p>SQL and data-driven applications</p>
+            </article>
+
+            <article class="skill-card">
+                <h3>Cybersecurity</h3>
+                <p>Secure development and cybersecurity concepts</p>
+            </article>
+
+            <article class="skill-card">
+                <h3>Problem Solving</h3>
+                <p>Algorithms, data structures and logical thinking</p>
+            </article>
+
+        </div>
+
+    </section>
+    <!-- Projects Section -->
+<section id="projects" class="projects-section" aria-labelledby="projects-title">
+
+    <h2 id="projects-title">Projects & GitHub</h2>
+
+    <p class="projects-introduction">
+        A selection of projects that reflect my interests in software development,
+        web technologies, databases, and cybersecurity.
+    </p>
+
+    <div class="projects-grid">
+
+        <article class="project-card">
+            <div class="project-icon" aria-hidden="true">&lt;/&gt;</div>
+            <h3>Hospital Management System</h3>
+            <p>
+                A structured system designed to support efficient hospital records,
+                workflows, and data management.
+            </p>
+            <ul class="project-technologies" aria-label="Technologies used">
+                <li>Python</li>
+                <li>Django</li>
+                <li>Database</li>
+            </ul>
+            <a class="project-link" href="https://github.com/sheilachepkorir205-a11y" target="_blank" rel="noopener noreferrer">
+                GitHub <span aria-hidden="true">&#8594;</span>
+            </a>
+        </article>
+
+        <article class="project-card">
+            <div class="project-icon" aria-hidden="true">{ }</div>
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                A responsive portfolio experience built to present my skills,
+                education, projects, and professional interests.
+            </p>
+            <ul class="project-technologies" aria-label="Technologies used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <a class="project-link" href="https://github.com/sheilachepkorir205-a11y" target="_blank" rel="noopener noreferrer">
+                GitHub <span aria-hidden="true">&#8594;</span>
+            </a>
+        </article>
+
+        <article class="project-card">
+            <div class="project-icon" aria-hidden="true">&lt;&gt;</div>
+            <h3>Web Development Project</h3>
+            <p>
+                A front-end project focused on clean interfaces, responsive layouts,
+                and thoughtful user experiences.
+            </p>
+            <ul class="project-technologies" aria-label="Technologies used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <a class="project-link" href="https://github.com/sheilachepkorir205-a11y" target="_blank" rel="noopener noreferrer">
+                GitHub <span aria-hidden="true">&#8594;</span>
+            </a>
+        </article>
+
+        <article class="project-card">
+            <div class="project-icon" aria-hidden="true">SQL</div>
+            <h3>Database/SQL Project</h3>
+            <p>
+                A data-focused project exploring relational design, SQL queries,
+                and reliable database development.
+            </p>
+            <ul class="project-technologies" aria-label="Technologies used">
+                <li>SQL</li>
+                <li>Database Development</li>
+            </ul>
+            <a class="project-link" href="https://github.com/sheilachepkorir205-a11y" target="_blank" rel="noopener noreferrer">
+                GitHub <span aria-hidden="true">&#8594;</span>
+            </a>
+        </article>
+
+    </div>
+
+
+</section>
+<!-- Education Section -->
+<section id="education" class="education-section" aria-labelledby="education-title">
+
+    <h2 id="education-title">Education</h2>
+
+    <article class="education-card">
+
+        <h3>Bachelor of Science in Computer Science</h3>
+
+        <p class="education-institution">
+            Karatina University
+        </p>
+
+        <p class="education-description">
+            Currently pursuing my degree, developing skills in software
+            development, web technologies, databases, algorithms,
+            cybersecurity, and computer systems.
+        </p>
+
+    </article>
+
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section" aria-labelledby="contact-title">
+
+    <h2 id="contact-title">Contact Me</h2>
+
+    <p>
+        I would love to connect with you. Feel free to reach out through
+        email or phone.
+    </p>
+
+    <div class="contact-details">
+
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:sheilachepkorir205@gmail.com">
+                sheilachepkorir205@gmail.com
+            </a>
+        </p>
+
+        <p>
+            <strong>Phone:</strong>
+            <a href="tel:+254791801822">
+                +254 791 801 822
+            </a>
+        </p>
+
+        <p>
+            <strong>Alternative Phone:</strong>
+            <a href="tel:+254745059881">
+                +254 745 059 881
+            </a>
+        </p>
+
+    </div>
+
+</section>
+
+</main>
+
+<button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" aria-hidden="true" tabindex="-1">
+    <span aria-hidden="true">&#8593;</span>
+</button>
+
+</body>
 </html>
